@@ -1,0 +1,113 @@
+body {
+	background-color: black;
+	color: #E2E3CB;
+}
+
+h2, h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#play {
+	display: none;
+}
+
+.clear {
+	clear:both;
+}
+
+#playLeft {
+	float: left;
+	width: 195px;
+}
+
+#playerList {
+	width: 191px;
+	height: 153px;
+	margin: 3px 0 0 0;
+	padding: 2px;
+	background: black;
+	color: white;
+	overflow: scroll;
+}
+
+#log {
+	width: 191px;
+	height: 328px;
+	margin: 5px 0 0 0;
+	padding: 2px;
+	background: black;
+	color: white;
+	overflow: scroll;
+}
+
+#playRight {
+	float: left;
+	width: 800px;
+	height: 495px;
+	margin: 3px 0 0 5px;
+}
+
+#gameStage {
+	width: 495px;
+	height: 495px;
+}
+
+#mesTo {
+	float: left;
+	height: 25px;
+	margin: 6px 0 0 0;
+}
+
+#message {
+	float: left;
+	width: 740px;
+	height: 25px;
+	margin: 3px 0 0 0;
+	border: 2px black solid;
+	font: 18px "メイリオ","Meiryo";
+}
+
+#dice {
+	float: left;
+	width: 80px;
+	height: 25px;
+	margin: 5px 0 0 5px;
+	background: #FF6666;
+	color: gray;
+	font: bold 20px/28px "メイリオ","Meiryo";
+	text-align: center;
+	border-radius: 5px;
+}
+
+#bell {
+	float: left;
+	width: 80px;
+	height: 25px;
+	margin: 5px 0 0 5px;
+	background: #F3D51A;
+	color: gray;
+	font: bold 20px/28px "メイリオ","Meiryo";
+	text-align: center;
+	border-radius: 5px;
+}
+
+.dice {
+	color: #FF6666;
+}
+
+.private {
+	color: #FFD700;
+}
+
+.join {
+	color: #FFFFFF;
+}
+
+.event {
+	color: #FF0000;
+}
+
+.grant {
+	color: #FFFF00;
+}

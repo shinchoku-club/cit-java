@@ -1,0 +1,29 @@
+body {
+	background-color: black;
+	color: #E2E3CB;
+	margin: 0;
+	height: 960px;
+	width: 640px;
+}
+
+#wrapper {
+	height: 100%;
+	width: 100%;
+}
+
+h2, h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.clear {
+	clear:both;
+}
+
+#game {
+	display: none;
+}
+
+#send {
+	display: none;
+}
